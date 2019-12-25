@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="1" name="hello-hosted-targets">
+    <Basepaths>/v1/hello-hosted-targets</Basepaths>
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1559107049770</CreatedAt>
+    <CreatedBy>verma.govind92@gmail.com</CreatedBy>
+    <Description></Description>
+    <DisplayName>hello-hosted-targets</DisplayName>
+    <HostedManifestVersion>SHA-512:d52e3dffd494687865960af126815b16876f1ce8e521d97b339b4af724a0203a23d6c2c8f07015e49a99413aaadecc61a4582236b682b5b60f08b366610a6683:ap-northeast-1</HostedManifestVersion>
+    <LastModifiedAt>1559107049770</LastModifiedAt>
+    <LastModifiedBy>verma.govind92@gmail.com</LastModifiedBy>
+    <ManifestVersion>SHA-512:4645c79858c2c370f0a21f8e46aafc6bc571f2504f11e978435532dc42d39eabea7f968e09cb30de02015fc088095e7174f22b6e3f1f7df85f0f330b8c26d6d0</ManifestVersion>
+    <Policies/>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources>
+        <Resource>hosted://app.yaml</Resource>
+        <Resource>hosted://index.js</Resource>
+        <Resource>hosted://package.json</Resource>
+    </Resources>
+    <Spec></Spec>
+    <TargetServers/>
+    <TargetEndpoints>
+        <TargetEndpoint>default</TargetEndpoint>
+    </TargetEndpoints>
+</APIProxy>
